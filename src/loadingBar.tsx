@@ -2,14 +2,14 @@ import React from 'react';
 
 type Maybe<T> = T | null;
 
-export type ProgressBarProps = {
+export type LoadingBarProps = {
   colors: string[];
   cycleDurationInMs: number;
   height: number;
   positionAtTop: boolean;
 };
 
-export type ProgressBarState = {
+export type LoadingBarState = {
   currentCycle: number;
   currentTick: number;
 };
@@ -23,12 +23,12 @@ export const rotateArray = (array: any[], times: number) => {
   return rotatedArray;
 };
 
-export default class ProgressBar extends React.Component<ProgressBarProps, ProgressBarState> {
+export default class LoadingBar extends React.Component<LoadingBarProps, LoadingBarState> {
   intervalId: Maybe<NodeJS.Timeout> = null;
   bar: Maybe<HTMLElement> = null;
   tickDurationInMs = 4;
 
-  constructor(props: ProgressBarProps) {
+  constructor(props: LoadingBarProps) {
     super(props);
 
     this.rotateColors = this.rotateColors.bind(this);

@@ -1,6 +1,6 @@
 {
   "name": "react-colored-loading-bar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A colored loading bar component for React.js",
   "main": "lib/loadingBar.js",
   "scripts": {
