@@ -1,7 +1,7 @@
 {
-  "name": "react-colored-loading-bar",
+  "name": "react-multicolor-loading-bar",
   "version": "1.0.1",
-  "description": "A colored loading bar component for React.js",
+  "description": "A multi-colored loading bar component for React.js",
   "main": "lib/loadingBar.js",
   "scripts": {
     "build": "tsc",
@@ -20,6 +20,7 @@
   "keywords": [
     "react-loader",
     "react-loading-bar",
+    "react-multicolor-loading-bar",
     "react-colored-loading-bar",
     "colored-bar",
     "colored-progress-bar",
