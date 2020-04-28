@@ -5,14 +5,14 @@ Here is the [Demo](http://charts-demo.argick.com.s3-website.ap-south-1.amazonaws
 ## Installation
 
 ```bash
-npm install --save react-colored-loading-bar
+npm install --save react-multicolor-loading-bar
 ```
 
 ## Example Usage
 
 ```jsx
 import React from 'react'
-import Loadingbar from 'react-colored-loading-bar'
+import Loadingbar from 'react-multicolor-loading-bar'
 
 const App = () => {
   return (
