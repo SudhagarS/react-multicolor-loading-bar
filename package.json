@@ -1,6 +1,6 @@
 {
   "name": "react-multicolor-loading-bar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A multi-colored loading bar component for React.js",
   "homepage": "https://github.com/SudhagarS/react-multicolor-loading-bar",
   "main": "lib/loadingBar.js",
